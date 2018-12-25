@@ -2,22 +2,28 @@ package Hometask2;
 
 public class Calculator {
 
-    void main(String[] args){
-        int a = 10;
-        int b = 20;
-        int c = 100;
 
-        int r = (a + b * (c / 2));
+    public static int calcMethod1(int a, int b, int c) {
+        int result = (a + b * (c / 2));
+        return result;
+    }
 
-        int z = (a * a + b * b) % 2;
+    public static int calcMethod2(int a, int b) {
+        int result = ((a * a + b * b)) % 2;
+        return result;
+    }
 
-        int x = (a + b) / 12 * c % 4 + b;
+    public static int calcMethod3(int a, int b, int c) {
+        int result = (a + b) / 12 * c % 4 + b;
+        return result;
+    }
 
-        int q = (a - b * c) / (a + b) % c;
-}
-}
-//        System.out.println(r);
-//        System.out.println(z);
-//        System.out.println(x);
-//        System.out.println(q);
+    public static int calcMethod4(int a, int b, int c) {
+        int result = (a - b * c) / (a + b) % c;
+        return result;
+    }
+    }
+
+
+
 
