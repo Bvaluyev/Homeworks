@@ -2,10 +2,10 @@ package Homework3;
 
 public class Function {
     public static void main(String[] args) {
-        int a = 10;
+        int a = 12;
         int b = 7;
         int result = a % b;
-        if (isNumberEven(11)){
+        if (isNumberEven(result)){
             System.out.println("Число является четным");
             }else{
             System.out.println("Число является нечетным");
