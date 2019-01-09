@@ -2,8 +2,8 @@ package Homework3;
 
 public class Function {
     public static void main(String[] args) {
-        int a = 12;
-        int b = 7;
+        int a = 21;
+        int b = 10;
         int result = a % b;
         if (isNumberEven(result)){
             System.out.println("Число является четным");
@@ -13,7 +13,7 @@ public class Function {
     }
 
     public static boolean isNumberEven(int num) {
-        int result = num & 1;
+        int result = num % 2;
 
         if (result == 0) {
             return true;
