@@ -2,7 +2,7 @@ package Homework3;
 
 public class Function {
     public static void main(String[] args) {
-        int a = 21;
+        int a = 23;
         int b = 10;
         int result = a % b;
         if (isNumberEven(result)){
@@ -13,14 +13,6 @@ public class Function {
     }
 
     public static boolean isNumberEven(int num) {
-        int result = num % 2;
-
-        if (result == 0) {
-            return true;
-        } else {
-            return false;
+        return num % 2 == 0 ;
         }
     }
-}
-//    Написать функцию, которая будет проверять четность некоторого числа используя операцию нахождения остатка от деления %.
-//
