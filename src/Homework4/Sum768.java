@@ -1,6 +1,6 @@
 package Homework4;
 
-public class sum768 {
+public class Sum768 {
 
             public static void main(String[] args) {
                 int a = 768;

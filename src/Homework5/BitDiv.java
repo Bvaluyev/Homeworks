@@ -10,10 +10,10 @@ public class BitDiv {
     }
 
     public static long bitDivByFour(double a, double b) {
-        int e = (int) a;
-        int t = (int) b;
-        double x = (e >> t);
-        return (int) x;
+        long e = (long) a;
+        long t = (long) b;
+        long x = (e >> t);
+        return x;
     }
 
 }
