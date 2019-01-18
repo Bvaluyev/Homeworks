@@ -14,24 +14,17 @@ public class EagleAndTails {
         for (int i = 0; i < 2000; i++) {
             int rnd = (int) (Math.random() * 2);
             if (rnd == 1) {
-                Eagle = rnd +Eagle;
+                Eagle = rnd + Eagle;
 
             } else {
                 Tail = Tail + 1;
             }
-            System.out.println("Орел выпал:" + " " + Eagle + " " + "раз.");
-            System.out.println("Решка выпала:" + " " + Tail + " " + "раз.");
         }
+        System.out.println("Орел выпал:" + " " + Eagle + " " + "раз.");
+        System.out.println("Решка выпала:" + " " + Tail + " " + "раз.");
 
     }
 }
-
-
-
-
-
-
-
 
 
 //    Смоделировать игру “Орел и Решка”.
