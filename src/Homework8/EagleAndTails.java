@@ -22,8 +22,8 @@ public class EagleAndTails {
         }
         System.out.println("Орел выпал:" + " " + Eagle + " " + "раз.");
         System.out.println("Решка выпала:" + " " + Tail + " " + "раз.");
-
     }
+
 }
 
 
